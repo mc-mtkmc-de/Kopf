@@ -18,11 +18,11 @@ public class FileManager {
             file.setValue("Prefix", "§8▌ §4Kopf §8» §7");
             file.setValue("KopfCooldown", 1209600);
             file.setValue("MySQL.use", false);
-            file.setValue("MySQL.Host", "127.0.0.1");
+            file.setValue("MySQL.Host", "");
             file.setValue("MySQL.Port", 3306);
-            file.setValue("MySQL.Database", "KopfDB");
-            file.setValue("MySQL.User", "root");
-            file.setValue("MySQL.Password", "admin");
+            file.setValue("MySQL.Database", "");
+            file.setValue("MySQL.User", "");
+            file.setValue("MySQL.Password", "");
             ArrayList<String> list = new ArrayList<>();
             file.setValue("Users", list);
             file.save();
